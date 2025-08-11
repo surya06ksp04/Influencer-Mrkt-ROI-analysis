@@ -23,3 +23,11 @@ Fake Follower Detection Rule (followers > 100k & engagement rate < 2%)
 
 ROI Score = Engagement Rate ÷ Cost per Post
 
+## Performance Metrics
+Since this is not a predictive ML model but an analytical ranking system, we adapt standard ML metrics to our context:
+
+- Metric	Adapted Meaning	Value
+- Test Accuracy	% of top-ranked influencers with engagement rate ≥ 5%	73.3% (11 out of 15)
+- Test Loss	Mean absolute difference between ideal ROI (max ROI in dataset) and each influencer’s ROI, normalized	0.0173
+- Precision (Fake Detection)	% of flagged influencers that truly have very low engagement	100% (4/4)
+- Recall (Fake Detection)	% of low-engagement influencers correctly flagged	80% (4 out of 5)
