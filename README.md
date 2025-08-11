@@ -8,10 +8,3 @@ This Python tool analyzes influencer marketing data to help brands choose the be
 - Computes **ROI score** to compare influencers by cost efficiency.
 - Outputs results to CSV and displays them in console.
 
-## Dataset Format
-`influencers.csv`
-```csv
-name,followers,likes,comments,cost_per_post
-Alice,150000,3500,400,500
-Bob,50000,4000,600,300
-...
